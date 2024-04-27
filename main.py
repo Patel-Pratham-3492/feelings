@@ -195,4 +195,3 @@ elif(radio_value == "Take a Session"):
 	Take_a_Session()
 
 
-#https://console.firebase.google.com/project/earn-by-game/firestore?hl=en_GB

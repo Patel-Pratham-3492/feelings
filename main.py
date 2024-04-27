@@ -46,7 +46,7 @@ with st.sidebar:
     radio_value = st.sidebar.radio('Select an option', ('About', 'Information', 'Take a Session'))
 
 def About():
-	st.header("Welcome to :red[Feelings].streamlit.app")
+	st.header("Welcome to :red[Feeling].streamlit.app")
 	st.write("It is a :green[platform] for those who are :blue[introvert and want to share feelings]")
 	st.write("like some :blue[confessions],:blue[love] someone but afraid to tell or even some people can share :blue[guilty] they did in past.")
 	st.write("We are :green[providing] :red[U] a support means having :green[face to face] communication with our staff member.")

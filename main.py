@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import stripe
 from google.cloud import firestore
 from streamlit.components.v1 import html
@@ -93,8 +92,7 @@ def About():
 	st.header(f":red[Number] of :violet[Session] Available is :green[{remaining}]")
 	
 	data = {"Number of Session": ['1','2','3','4','5'],"Timing": ['9 to 10','10:10 to 11:10','11:10 to 12:10','12:20 to 13:20','13:30 to 14:30']}
-	df = pd.DataFrame(data)
-	st.table(df)
+	st.table(data)
 	
 	st.write(" ")
 	st.write(" ")
@@ -197,3 +195,4 @@ elif(radio_value == "Take a Session"):
 	Take_a_Session()
 
 
+#https://console.firebase.google.com/project/earn-by-game/firestore?hl=en_GB

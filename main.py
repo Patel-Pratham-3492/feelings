@@ -351,5 +351,3 @@ elif(radio_value == "Feedback"):
 	Feedback()
 elif(radio_value == "Review"):
 	Review()
-
-#https://console.firebase.google.com/project/earn-by-game/firestore?hl=en_GB
